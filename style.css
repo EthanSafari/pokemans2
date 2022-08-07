@@ -1,0 +1,63 @@
+/* Name: Red
+Hex: #FF0000
+RGB: (255, 0, 0)
+CMYK: 0, 1, 1, 0
+
+BOSTON UNIVERSITY RED	
+Name: Boston University Red
+Hex: #CC0000
+RGB: (204, 0, 0)
+CMYK: 0, 1, 1, 0.2
+
+CERULEAN BLUE	
+Name: Cerulean Blue
+Hex: #3B4CCA
+RGB: (59, 76, 202)
+CMYK: 0.707, 0.623, 0, 0.207
+
+GOLDEN YELLOW	
+Name: Golden Yellow
+Hex: #FFDE00
+RGB: (255, 222, 0)
+CMYK: 0, 0.129, 1, 0
+
+GOLD FOIL	
+Name: Gold Foil
+Hex: #B3A125
+RGB: (179, 161, 37)
+CMYK: 0, 0.100, 0.793, 0.298 */
+
+:root {
+    --goldFoil :#B3A125;
+    --goldenYellow : #FFDE00;
+    --ceruleanBlue : #3B4CCA;
+    --universityRed : #CC0000;
+    --red : #FF0000;
+}
+
+html, body {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: .3em;
+    display: flex;
+    flex-flow: row, wrap;
+    justify-content: space-between;
+    border-bottom: 3px solid var(--universityRed);
+    background-color: var(--red);
+    padding: .3em 1em;
+}
+
+.pokemans {
+    font-family: 'Pokemon Solid', sans-serif;
+    margin-top: -1em;
+    margin-bottom: -1em;
+    color: var(--goldenYellow);
+    text-shadow: -1px 2px #3B4CCA;
+    -webkit-text-stroke: black;
+}
