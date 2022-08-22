@@ -4,7 +4,11 @@ const app = express(); //set express to a variable to be used
 app.use(express.json()); //sets the req bodies to content-type of json
 
 app.get('/', (req, res) => {
-
+    res.json({
+        "Setting up": "the server",
+        "Please": "Work...",
+        "Good": "its Working"
+    });
 });
 
 
