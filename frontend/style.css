@@ -31,7 +31,7 @@ CMYK: 0, 0.100, 0.793, 0.298 */
     --goldFoil :#B3A125;
     --goldenYellow : #FFDE00;
     --ceruleanBlue : #3B4CCA;
-    --universityRed : #CC0000;
+    --universityRed : #8d0707;
     --red : #FF0000;
 }
 
@@ -66,5 +66,8 @@ header {
 }
 
 .searchbar {
-    display: flex;
+    display: inline-flex;
+    width: auto;
+    flex-grow: 1;
+    margin: 0 1.5em;
 }
