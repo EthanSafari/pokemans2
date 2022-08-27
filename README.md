@@ -11,3 +11,12 @@ ROADMAP:
   of the express server to accomplish the same thing by hooking it up to nodemon, and attaching the landing page to the 
   express server. Works almost identically to the Live Server extension, except that I have to refresh the html page
   each time an adjustment is made to the code.
+  
+ 08/27/2022 > Was originally going to try and put together an API for all the pokemans, but did some research and   found out that there is already an API that exists for the pokemans. Adding the API to a new resources list.
+ 
+ 
+ 
+ 
+ RESOURCES: 
+ 
+ > PokeAPI: https://pokeapi.co/
