@@ -16,7 +16,7 @@ ROADMAP:
  
 > 08/29/2022 > Changing one of the buttons to be a random Pokeman button that will show the Pokadex entry for one of the original 150 pokemans. This will utilize the API. not sure if it should be implemented as a button or a pop-out side panel.
  
- 
+> 08/31/2022 > Created a functional slide panel, which will either contain a random Pokeman entry, or a minigame. it works, but it needs to be polished a bit in order to look how its supposed to look.
  
  RESOURCES: 
  
