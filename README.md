@@ -19,3 +19,5 @@ ROADMAP:
  > PokeAPI: https://pokeapi.co/
 
  > PokeAPI GitHub: https://github.com/PokeAPI
+
+ > Hi Resolution Poke Pictures: https://hirespokemon.tumblr.com/
