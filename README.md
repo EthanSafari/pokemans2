@@ -14,6 +14,8 @@ ROADMAP:
 
 > 08/31/2022 > Created a functional slide panel, which will either contain a random Pokeman entry, or a minigame. It works, but it needs to be polished a bit in order to look how its supposed to look.
 
+> 09/01/2022 > Slide panel is now fully functional, and works as intended. Need to include features.
+
  RESOURCES:
 
  > PokeAPI: https://pokeapi.co/

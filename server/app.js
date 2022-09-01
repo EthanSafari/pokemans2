@@ -1,22 +1,20 @@
+const fs = require('fs');
+
 const express = require('express'); //import express
 const app = express(); //set express to a variable to be used
 
 app.use(express.json()); //sets the req bodies to content-type of json
 
-// app.use(express.static('../frontpage'));
 
 // app.use(express.static('/trainer-card', '../trainerCard'));
 
-app.get('/', (req, res) => {
+app.get('/', (req, res, next) => {
     res.statusCode = 200;
-    // res.json({
-    //     "Setting up": "the server",
-    //     "Please": "Work...",
-    //     "Good": "its Working",
-    // });
-    res.sendFile(path.join(""))
+    // res.sendFile(`../frontpage/index.html`)
+    next();
 });
 
+app.use(express.static('../frontpage'));
 
 const port = 3000;
 app.listen(port, () =>
