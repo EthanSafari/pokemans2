@@ -55,6 +55,10 @@ header {
     padding: .3em 1em;
 }
 
+button {
+    cursor: pointer;
+}
+
 .pokemans {
     font-family: 'Pokemon Solid', sans-serif;
     margin-top: -1.5em;
@@ -115,7 +119,6 @@ header {
     color: black;
     box-shadow: 0 5px 10px rgba(0, 0, 0, .35);
 }
-
 
 .top-panel-open .top-panel {
     display: initial;
