@@ -97,7 +97,7 @@ button {
     color: black;
     background-color: var(--goldenYellow);
     border: none;
-    border-radius: 0 0 5px 5px;
+    border-radius: 0 0 5px 0;
     outline: none;
     cursor: pointer;
     box-shadow: 0 5px 10px rgba(0, 0, 0, .35);
@@ -107,7 +107,7 @@ button {
     background-color: var(--goldFoil);
 }
 
-.tp-icon-open {
+.tp-icon-close {
     display: none !important;
 }
 
@@ -124,10 +124,11 @@ button {
     display: initial;
 }
 
-.side-panel-open .tp-icon-open {
+.top-panel-open .tp-icon-open {
+    display: none !important;
+}
+
+.top-panel-open .tp-icon-close {
     display: initial !important;
 }
 
-.side-panel-open .tp-icon-close {
-    display: none !important;
-}
