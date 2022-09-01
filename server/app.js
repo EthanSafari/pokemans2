@@ -3,15 +3,18 @@ const app = express(); //set express to a variable to be used
 
 app.use(express.json()); //sets the req bodies to content-type of json
 
-app.use(express.static('../frontpage'));
+// app.use(express.static('../frontpage'));
+
+// app.use(express.static('/trainer-card', '../trainerCard'));
 
 app.get('/', (req, res) => {
     res.statusCode = 200;
-    res.json({
-        "Setting up": "the server",
-        "Please": "Work...",
-        "Good": "its Working",
-    });
+    // res.json({
+    //     "Setting up": "the server",
+    //     "Please": "Work...",
+    //     "Good": "its Working",
+    // });
+    res.sendFile(path.join(""))
 });
 
 
