@@ -101,7 +101,8 @@ button {
     height: 100%;
 
     background-image: url('../frontpage/resources/imgs/charmander1996.png');
-    background-size: cover;
+    background-size: contain;
+    background-position: center;
 }
 
 .main {
@@ -138,8 +139,9 @@ button {
     height: 200px;
     padding: 20px;
     flex-shrink: 0;
-    background-color: var(--goldenYellow);
+
     color: black;
+    background-color: var(--goldenYellow);
     box-shadow: 0 5px 10px rgba(0, 0, 0, .35);
 }
 
