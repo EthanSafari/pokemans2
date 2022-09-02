@@ -14,7 +14,7 @@ ROADMAP:
 
 > 08/31/2022 > Created a functional slide panel, which will either contain a random Pokeman entry, or a minigame. It works, but it needs to be polished a bit in order to look how its supposed to look.
 
-> 09/01/2022 > Slide panel is now fully functional, and works as intended. Need to include features.
+> 09/01/2022 > Slide panel is now fully functional, and works as intended. Need to include features. Also added a background image. The plan is to make something similar to the Flickr mock that I originally made, but with all the bugs squished out of it.
 
  RESOURCES:
 
