@@ -1,4 +1,4 @@
-const { request } = require('express');
+
 const express = require('express'); //import express
 const app = express(); //set express to a variable to be used
 
@@ -8,11 +8,11 @@ app.use(express.json()); //sets the req bodies to content-type of json
 
 app.get('/', (req, res, next) => {
     res.statusCode = 200;
-    // res.sendFile(`../frontpage/index.html`)
+    res.render('../frontpage/index.html');
     next();
 });
 
-app.use(express.static('../frontpage'));
+// app.use(express.static('../frontpage'));
 
 const port = 3000;
 app.listen(port, () =>
