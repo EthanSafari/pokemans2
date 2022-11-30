@@ -2,6 +2,8 @@
 
 First attempt at a somewhat full-stack application, where the everything is built from the ground up using JavaScript, HTML, and CSS.
 
+**As of November 2022, I found out that express as a backend is to be utilized with react. This application will change into a react application and utilize redux**
+
 ROADMAP:
 
 > 08/22/2022 > Decided to make the REPO from private to public. At this point in time, there is a start to a landing page, and a shell of an express server
